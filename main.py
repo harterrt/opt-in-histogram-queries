@@ -50,4 +50,4 @@ def main():
         writer = csv.writer(outfile)
         writer.writerows(out)
 
-    print set(map(lambda x: x[0], out))
+    return(out)
